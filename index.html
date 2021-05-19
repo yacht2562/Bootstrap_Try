@@ -12,23 +12,32 @@
   </head>
   <body>
     <div class="container">
-      <div class="row justify-content-start">
+      <div class="row">
         <div class="col-3">first column</div>
-        <div class="col offset-3">คอลัมป์ที่สอง</div>
-        
+        <div class="col-3 offset-3">
+          <div class="row">
+            <div class="col">sub1</div>
+            <div class="col">sub2</div>
+            <div class="col-7">sub3</div>
+          </div>
+        </div>
       </div>
-        
-        <div class="row justify-content-between">
-          <div class="col-3 offset-2">Two</div>
+      <div class="row justify-content-around">
+        <div class="col-3 offset-2">
+          <div class="row">
+            <div class="col-5">a</div>
+            <div class="col-5">b</div>
+            <div class="col-6">c</div>
+          </div>
         </div>
-        <div class="row justify-content-start">
-          <div class="col-3 offset-1">One</div>
-          <div class="col-3 offset-3">Three</div>
+        <div class="col-3 offset-2">
+          <div class="row justify-content-end">
+            <div class="col-2">ก</div>
+            <div class="col-3">ข</div>
+          </div>
         </div>
+      </div>
     </div>
-  </div>
-    
-    <div class="container-fluid">container</div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
